@@ -1,9 +1,9 @@
 <template>
-  <div class="u-container">
+  <main class="u-container">
     <Header />
     <Input />
     <Lists />
-  </div>
+  </main>
 </template>
 
 <script lang="ts">

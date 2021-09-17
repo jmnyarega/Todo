@@ -1,4 +1,4 @@
-.input {
+.form {
   margin-top: 1.5rem;
 
   background-color: $white;
@@ -6,10 +6,7 @@
   border-radius: 0.5rem;
   overflow: hidden;
   border: 1px solid transparent;
-
-  &__form  {
-    display: flex;
-  }
+  display: flex;
 
   &__check {
     width: 1.5rem;

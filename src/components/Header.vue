@@ -1,5 +1,5 @@
 <template>
-  <header class="header u-container">
+  <section class="header u-container">
     <h1 class="header__title">Todo</h1>
     <div class="switch">
       <input type="checkbox" id="toggle" />
@@ -16,5 +16,5 @@
         />
       </label>
     </div>
-  </header>
+  </section>
 </template>

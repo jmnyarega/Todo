@@ -24,12 +24,26 @@ import ListItems from "./ListItems.vue";
   data() {
     return {
       todos: [
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, quasi. ",
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, quasi. ",
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, quasi. ",
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, quasi. ",
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, quasi. ",
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, quasi. ",
+        {
+          id: 1,
+          name: "Lorem ipsum dolor sit ",
+          status: "completed",
+        },
+        {
+          id: 2,
+          name: "Lorem ipsum dolor sit ",
+          status: "completed",
+        },
+        {
+          id: 3,
+          name: "Lorem ipsum dolor sit ",
+          status: "",
+        },
+        {
+          id: 3,
+          name: "Lorem ipsum dolor sit ",
+          status: "completed",
+        },
       ],
     };
   },
